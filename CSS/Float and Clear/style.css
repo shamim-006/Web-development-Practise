@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    float: left;
+    width: 300px;
+   margin-right: 20px;
+}
+
+p{
+   text-align: justify; 
+}
+
+.fx>img{
+ float: right;
+    width: 300px;
+   margin-right: 20px;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    margin: 10px;
+}
+
+.clear-fix{
+    clear: both;
+}

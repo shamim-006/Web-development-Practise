@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    /* TEXT  TRANSFORM */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    /* TEXT DECORATION */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+}
+
+div{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: blueviolet;
+}

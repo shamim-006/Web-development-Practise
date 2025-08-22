@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: Arial, sans-serif;
+}
+
+.d1{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.d2{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+}

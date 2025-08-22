@@ -1,0 +1,70 @@
+p{
+    color: blue;
+    font-size: 50px;
+}
+h1{
+    color: red;
+    font-size: 60px;
+}
+/* For Class */
+.myClass{
+    color: aqua;
+    font-size: 30px;
+}
+
+/* For Id */
+#myId{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+/* Universal selector */
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Group selector */
+h3,h4,h5{
+    color: burlywood;
+    font-size: 50px;
+}
+
+/* Child selector */
+div>h2{
+    color: green;
+    font-size: 50px;
+}
+
+/* Descendant Selector/ Child inside child*/
+
+/* div>section>h2{
+color: chartreuse;
+font-size: 30px;
+} */
+
+div section h2{
+    color: yellow;
+font-size: 30px;
+}
+
+/* Pseudo Selector */
+
+.btn{
+background-color: crimson;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(12, 109, 25);
+    padding: 24px 30px;
+}
+
+.check h6:first-child{
+    color: red;
+    font-size: 40px;
+}

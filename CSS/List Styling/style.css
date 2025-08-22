@@ -1,0 +1,28 @@
+.order-list{
+    list-style-type: lower-alpha;
+}
+
+.unordered-list{
+/* list-style-type: disc; */
+/* list-style-type: circle; */
+/* list-style-type: square; */
+list-style-type: none;
+}
+
+/* .custom-list li::before{
+    content: "⭐";
+    margin-right: 10px;
+} */
+
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list li{
+    background-color: aqua;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

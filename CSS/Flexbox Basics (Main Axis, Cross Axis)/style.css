@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: row;  left to right */
+    /* flex-direction: column; up to down */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}

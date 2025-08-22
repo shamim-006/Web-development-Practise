@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+        <br>
+        <label for="pw">Password:</label>
+        <input type="password" name="pw" id="pw" placeholder="Enter your password" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="county" id="country">
+            <option value="">Select a country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Austraila">Austraila</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <input type="checkbox" name="ch" id="ck">
+        <br>
+        <input type="color" name="c" id="c">
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" required></textarea>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>

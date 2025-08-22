@@ -1,0 +1,18 @@
+body{
+    /* background-image: url("/assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+
+    /* background: linear-gradient(to left,red,green); */
+
+    /* background: radial-gradient(circle,red,green); */
+
+    background-image: url("/assets/image.png");
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position:center center;
+    /* background-position: bottom right; */
+    height: 100vh;
+}

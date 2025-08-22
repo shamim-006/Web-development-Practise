@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*.container{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+}*/
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 100px;
+} */
+
+
+.box{
+    color: blue;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+
+    position: sticky;
+    top: 0;
+    left: 0;
+}
